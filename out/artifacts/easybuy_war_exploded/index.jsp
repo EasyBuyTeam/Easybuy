@@ -87,7 +87,7 @@
 		<div class="price-off">
 			<h2>今日特价</h2>
 			<ul class="product clearfix">
-				<c:forEach var="products" items="${productsList}">
+				<c:forEach var="products" items="${saleOfGoodsList}">
 				<li>
 					<dl>
 						<%--><dt><a href="product-view.jsp" target="_blank"><img src="images/product/1.jpg" /></a></dt><--%>
@@ -121,7 +121,7 @@
 		<div class="hot">
 			<h2>热卖推荐</h2>
 			<ul class="product clearfix">
-				<c:forEach var="products" items="${productsList}">
+				<c:forEach var="products" items="${hotProductList}">
 				<li>
 					<dl>
 						<%--><dt><a href="product-view.jsp" target="_blank"><img src="images/product/1.jpg" /></a></dt><--%>

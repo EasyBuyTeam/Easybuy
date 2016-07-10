@@ -12,6 +12,21 @@ public class EbProduct {
     private int epcId;
     private int epcchildId;
     private String epfileName;
+    private String epLook;
+
+    public int getEpSellOn() {
+        return epSellOn;
+    }
+
+    public void setEpSellOn(int epSellOn) {
+        this.epSellOn = epSellOn;
+    }
+
+    private int epSellOn;
+
+    public String getEpLook() {
+        return epLook;
+    }
 
     public int getEpId() {
         return epId;
@@ -75,5 +90,9 @@ public class EbProduct {
 
     public void setEpfileName(String epfileName) {
         this.epfileName = epfileName;
+    }
+
+    public void setEpLook(String epLook) {
+        this.epLook = epLook;
     }
 }

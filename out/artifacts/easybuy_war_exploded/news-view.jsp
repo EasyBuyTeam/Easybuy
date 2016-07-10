@@ -1,10 +1,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>易买网 - 首页</title>
 <link type="text/css" rel="stylesheet" href="css/style.css" />
 <script type="text/javascript" src="scripts/function.js"></script>
+
 </head>
 <body>
 <div id="header" class="wrap">
@@ -63,20 +65,16 @@
 		<div class="news-list">
 			<h4>新闻动态</h4>
 			<ul>
-				<li><a href="news-view.jsp" target="_blank">抢钱啦</a></li>
-				<li><a href="news-view.jsp" target="_blank">抢钱啦</a></li>
-				<li><a href="news-view.jsp" target="_blank">抢钱啦</a></li>
-				<li><a href="news-view.jsp" target="_blank">抢钱啦</a></li>
-				<li><a href="news-view.jsp" target="_blank">抢钱啦</a></li>
-				<li><a href="news-view.jsp" target="_blank">抢钱啦</a></li>
-				<li><a href="news-view.jsp" target="_blank">抢钱啦</a></li>
+				<c:forEach var="news" items="${newList}">
+					<li><a href="news.do?id=${news.en_id}&action=detail" target="_blank">${news.enTitle}</a></li>
+				</c:forEach>
 			</ul>
 		</div>
 	</div>
 	<div id="news" class="right-main">
-		<h1>铁三角 Audio-Technica ATH-EQ300M-SV 银色 挂耳式耳机</h1>
+		<h1>${news.en_title}</h1>
 		<div class="content">
-			f
+			${news.en_content}
 		</div>
 	</div>
 	<div class="clear"></div>
