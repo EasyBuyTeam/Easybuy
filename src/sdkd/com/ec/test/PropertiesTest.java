@@ -12,5 +12,6 @@ public class PropertiesTest {
         pro.load();
 
         pro.getProperty("driver");*/
+
     }
 }

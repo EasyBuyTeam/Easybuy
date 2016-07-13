@@ -3,17 +3,20 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+
     <welcome-file-list>
-        <welcome-file>category.do</welcome-file>
+        <welcome-file>/welcome.jsp</welcome-file>
     </welcome-file-list>
+
     <servlet>
-         <servlet-name>EbNewsController</servlet-name>
-         <servlet-class>sdkd.com.ec.controller.EbNewsController</servlet-class>
+        <servlet-name>EbNewsController</servlet-name>
+        <servlet-class>sdkd.com.ec.controller.EbNewsController</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>EbNewsController</servlet-name>
         <url-pattern>/news.do</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <servlet-name>EbNoticeController</servlet-name>
         <servlet-class>sdkd.com.ec.controller.EbNoticeController</servlet-class>
@@ -22,6 +25,7 @@
         <servlet-name>EbNoticeController</servlet-name>
         <url-pattern>/notice.do</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <servlet-name>EbProductController</servlet-name>
         <servlet-class>sdkd.com.ec.controller.EbProductController</servlet-class>
@@ -30,6 +34,7 @@
         <servlet-name>EbProductController</servlet-name>
         <url-pattern>/product.do</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <servlet-name>EbPCategoryController</servlet-name>
         <servlet-class>sdkd.com.ec.controller.EbPCategoryController</servlet-class>
@@ -38,6 +43,17 @@
         <servlet-name>EbPCategoryController</servlet-name>
         <url-pattern>/category.do</url-pattern>
     </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>EbShoppingController</servlet-name>
+        <servlet-class>sdkd.com.ec.controller.EbShoppingController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EbShoppingController</servlet-name>
+        <url-pattern>/shopping.do</url-pattern>
+    </servlet-mapping>
+
 
     <servlet>
         <servlet-name>EbUserController</servlet-name>
@@ -55,6 +71,16 @@
     <servlet-mapping>
         <servlet-name>EbUserReController</servlet-name>
         <url-pattern>/register.do</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>IndexController</servlet-name>
+        <servlet-class>sdkd.com.ec.controller.IndexController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IndexController</servlet-name>
+        <url-pattern>/index.do</url-pattern>
     </servlet-mapping>
 
 

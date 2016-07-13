@@ -3,7 +3,7 @@ package sdkd.com.ec.model;
 /**
  * Created by Night Watch on 2016/7/6.
  */
-public class EbProduct {
+public class EbProduct  {
     private int epId;
     private String epName;
     private String epDescription;
@@ -13,6 +13,11 @@ public class EbProduct {
     private int epcchildId;
     private String epfileName;
     private String epLook;
+
+    private String epPicture;
+    private String epPicture1;
+    private String epPicture2;
+
 
     public int getEpSellOn() {
         return epSellOn;
@@ -94,5 +99,30 @@ public class EbProduct {
 
     public void setEpLook(String epLook) {
         this.epLook = epLook;
+    }
+
+    public String getEpPicture() {
+        return epPicture;
+    }
+
+    public void setEpPicture(String epPicture) {
+        this.epPicture = epPicture;
+    }
+
+
+    public String getEpPicture1() {
+        return epPicture1;
+    }
+    public void setEpPicture1(String epPicture1) {
+        this.epPicture1 = epPicture1;
+    }
+
+
+    public String getEpPicture2() {
+        return epPicture2;
+    }
+
+    public void setEpPicture2(String epPicture2) {
+        this.epPicture2 = epPicture2;
     }
 }

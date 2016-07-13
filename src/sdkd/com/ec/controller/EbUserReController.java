@@ -31,12 +31,7 @@ public class EbUserReController extends HttpServlet {
         EbUserDao userDao = new EbUserDao();
 
 
-        //userDao.setUser(userDao.getUser().size()+1,name,passWord);
-       // if(name!=null&&passWord!=null&&rePassWord!=null&&passWord.equals(rePassWord)){
-           // userDao.setUser(userDao.getUser().size()+1,name,passWord);
-           // request.getRequestDispatcher("/reg-result.jsp").forward(request,response);
 
-      //  }
 
         if(!name.equals("")&&!passWord.equals("")&&!rePassWord.equals("")&&passWord.equals(rePassWord)){
 

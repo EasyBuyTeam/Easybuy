@@ -64,7 +64,33 @@ public class BaseDao {
         return value;
     }
 
-    //CUD
+
+//CUD
+    public int executeModify(String sql, List<String> params){
+        //JDBC的步骤
+        int result = 0;
+        try {
+            con = this.getConnection();
+            PreparedStatement ps = con.prepareStatement(sql);
+            //对于集合，在使用前一定要判断非空！！！
+            if(params!=null && params.size()>0){
+                for(int i=0;i<params.size();i++){
+                    ps.setString((i+1),params.get(i));
+                }
+            }
+            result = ps.executeUpdate();
+            //获取自动增长列
+            rs = ps.getGeneratedKeys();
+            if(rs.next()){
+                result = rs.getInt(1);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            this.close();
+        }
+        return result;
+    }
     public int exeucteModify(String sql, List<String> params){
         //JDBC的步骤
         int result = 0;

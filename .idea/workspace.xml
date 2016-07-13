@@ -1,90 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76af799e-c0ac-4f0c-b4bc-2bdb035fbc8c" name="Default" comment="热卖，特价修改">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jstl-1.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/mysql-connector-java-5.0.8-bin.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/servlet-api.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/logo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product/0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product/0_tiny.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/easybuy_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/easyBuy.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/easybuy.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbNewsController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbNoticeController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbPCategoryController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbProductController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbUserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbUserReController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/controller/ShoppingiItemController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/dao/BaseDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbNewsDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbNoticeDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbPCategoryDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbProductDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbUserDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/model/EbComment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/model/EbNews.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/model/EbNotice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/model/EbPCategory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/model/EbProduct.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/model/EbUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/model/ShoppingItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/service/impl/EbUserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/test/BaseTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/test/PropertiesTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/chat-room.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/guestbook.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manage/guestbook-modify.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manage/guestbook.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manage/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manage/manage-result.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manage/news-add.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manage/news-modify.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manage/news.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manage/order-modify.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manage/order.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manage/product-add.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manage/product-modify.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manage/product.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manage/productClass-add.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manage/productClass-modify.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manage/productClass.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manage/user-add.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manage/user-modify.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/manage/user.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/news-view.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/product-list.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/product-view.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/reg-result.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/register.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/function-manage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/scripts/function.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/shopping-result.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/shopping.jsp" />
+    <list default="true" id="76af799e-c0ac-4f0c-b4bc-2bdb035fbc8c" name="Default" comment="first 唐晓鹏">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/controller/EbShoppingController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/model/ShoppingCart.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/model/ShoppingCartItem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/1.1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/1.2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/1.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/2.1.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/2.2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/2.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/3.1.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/3.2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/3.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/4.1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/4.2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/5.1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/5.2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/6.1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/6.2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/7.1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/7.2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/8.1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/8.2png.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/images/product1/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/controller/EbShoppingController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/model/ShoppingCart.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/model/ShoppingCartItem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/1.1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/1.2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/1.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/2.1.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/2.2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/2.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/3.1.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/3.2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/3.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/4.1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/4.2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/5.1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/5.2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/6.1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/6.2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/7.1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/7.2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/8.1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/8.2png.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/product1/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbShoppingController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/controller/IndexController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbOrderDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbOrderDetailDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/model/EbOrder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/model/EbOrderDetail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/model/ShoppingCart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/model/ShoppingCartItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/service/EbOrderService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/util/ConstantUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/util/DateUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/include/left.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/include/top.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/welcome.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Easybuy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/controller/ShoppingiItemController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/controller/ShoppingiItemController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sdkd/com/ec/controller/ShoppingiItemController.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/controller/EbNewsController.class" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/controller/EbNewsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/controller/EbNoticeController.class" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/controller/EbNoticeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/controller/EbPCategoryController.class" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/controller/EbPCategoryController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/controller/EbProductController.class" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/controller/EbProductController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/controller/EbUserController.class" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/controller/EbUserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/controller/EbUserReController.class" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/controller/EbUserReController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/dao/BaseDao.class" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/dao/BaseDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/dao/impl/EbNewsDao.class" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/dao/impl/EbNewsDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/dao/impl/EbNoticeDao.class" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/dao/impl/EbNoticeDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/dao/impl/EbPCategoryDao.class" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/dao/impl/EbPCategoryDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/dao/impl/EbProductDao.class" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/dao/impl/EbProductDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/dao/impl/EbUserDao.class" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/dao/impl/EbUserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/model/EbComment.class" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/model/EbComment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/model/EbNews.class" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/model/EbNews.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/model/EbNotice.class" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/model/EbNotice.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/model/EbPCategory.class" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/model/EbPCategory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/model/EbProduct.class" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/model/EbProduct.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/model/EbUser.class" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/model/EbUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/model/ShoppingItem.class" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/model/ShoppingItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/service/impl/EbUserServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/service/impl/EbUserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/test/BaseTest.class" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/test/BaseTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/test/PropertiesTest.class" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/sdkd/com/ec/test/PropertiesTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/controller/EbNewsController.class" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/controller/EbNewsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/controller/EbNoticeController.class" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/controller/EbNoticeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/controller/EbPCategoryController.class" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/controller/EbPCategoryController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/controller/EbProductController.class" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/controller/EbProductController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/controller/EbUserController.class" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/controller/EbUserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/controller/EbUserReController.class" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/controller/EbUserReController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/dao/BaseDao.class" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/dao/BaseDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/dao/impl/EbNewsDao.class" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/dao/impl/EbNewsDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/dao/impl/EbNoticeDao.class" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/dao/impl/EbNoticeDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/dao/impl/EbPCategoryDao.class" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/dao/impl/EbPCategoryDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/dao/impl/EbProductDao.class" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/dao/impl/EbProductDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/dao/impl/EbUserDao.class" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/dao/impl/EbUserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/model/EbComment.class" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/model/EbComment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/model/EbNews.class" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/model/EbNews.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/model/EbNotice.class" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/model/EbNotice.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/model/EbPCategory.class" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/model/EbPCategory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/model/EbProduct.class" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/model/EbProduct.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/model/EbUser.class" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/model/EbUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/model/ShoppingItem.class" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/model/ShoppingItem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/service/impl/EbUserServiceImpl.class" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/service/impl/EbUserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/test/BaseTest.class" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/test/BaseTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/test/PropertiesTest.class" afterPath="$PROJECT_DIR$/out/production/easybuy/sdkd/com/ec/test/PropertiesTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/easybuy_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/easybuy_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/easybuy.iml" afterPath="$PROJECT_DIR$/easybuy.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/jdbc.properties" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/classes/jdbc.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/news-view.jsp" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/news-view.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/product-list.jsp" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/product-list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/product-view.jsp" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/product-view.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/reg-result.jsp" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/reg-result.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/scripts/function.js" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/scripts/function.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/shopping-result.jsp" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/shopping-result.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/shopping.jsp" afterPath="$PROJECT_DIR$/out/artifacts/easybuy_war_exploded/shopping.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/easybuy/jdbc.properties" afterPath="$PROJECT_DIR$/out/production/easybuy/jdbc.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jdbc.properties" afterPath="$PROJECT_DIR$/src/jdbc.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbNewsController.java" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbNewsController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbNoticeController.java" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbNoticeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbPCategoryController.java" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbPCategoryController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbProductController.java" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbProductController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbUserController.java" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbUserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbUserReController.java" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbUserReController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sdkd/com/ec/dao/BaseDao.java" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/dao/BaseDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbNewsDao.java" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbNewsDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbNoticeDao.java" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbNoticeDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbPCategoryDao.java" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbPCategoryDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbProductDao.java" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbProductDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbUserDao.java" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbUserDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sdkd/com/ec/model/EbProduct.java" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/model/EbProduct.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sdkd/com/ec/model/EbUser.java" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/model/EbUser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sdkd/com/ec/test/PropertiesTest.java" afterPath="$PROJECT_DIR$/src/sdkd/com/ec/test/PropertiesTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/news-view.jsp" afterPath="$PROJECT_DIR$/web/news-view.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/product-list.jsp" afterPath="$PROJECT_DIR$/web/product-list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/product-view.jsp" afterPath="$PROJECT_DIR$/web/product-view.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/reg-result.jsp" afterPath="$PROJECT_DIR$/web/reg-result.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/scripts/function.js" afterPath="$PROJECT_DIR$/web/scripts/function.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/shopping-result.jsp" afterPath="$PROJECT_DIR$/web/shopping-result.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/shopping.jsp" afterPath="$PROJECT_DIR$/web/shopping.jsp" />
     </list>
     <ignored path="easybuy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,6 +172,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/easyBuy$easybuy.coverage" NAME="easybuy Coverage Results" MODIFIED="1468031383402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -107,116 +184,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EbPCategoryController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/controller/EbPCategoryController.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/manage/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="149">
+              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EbProductDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbProductDao.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-              <folding>
-                <element signature="e#1121#1132#0" expanded="true" />
-                <element signature="e#2199#2210#0" expanded="true" />
-                <element signature="e#3380#3388#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseDao.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/dao/BaseDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="24" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EbPCategoryDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbPCategoryDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product-view.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/product-view.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="86" column="91" selection-start-line="86" selection-start-column="91" selection-end-line="86" selection-end-column="91" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/scripts/function.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="130" column="9" selection-start-line="130" selection-start-column="9" selection-end-line="130" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EbUserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbUserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-              <folding>
-                <element signature="e#1447#1455#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EbPCategory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/model/EbPCategory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-              <folding>
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#789#790#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EbProduct.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/model/EbProduct.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="26" />
-              <folding>
-                <element signature="e#375#376#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -226,9 +209,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -245,46 +228,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/test.jsp" />
-        <option value="$PROJECT_DIR$/web/guestbook.html" />
-        <option value="$PROJECT_DIR$/web/guestbook.jsp" />
-        <option value="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbUser.java" />
-        <option value="$PROJECT_DIR$/src/sdkd/com/ec/model/EbUser.java" />
-        <option value="$PROJECT_DIR$/src/sdkd/com/ec/dao/ProductDao.java" />
-        <option value="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/ProductDaoImpl.java" />
-        <option value="$PROJECT_DIR$/web/index.html" />
-        <option value="$PROJECT_DIR$/src/sdkd/com/ec/test/PropertiesTest.java" />
-        <option value="$PROJECT_DIR$/src/sdkd/com/ec/service/impl/EbUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/sdkd/com/ec/dao/ReflectBaseDao.java" />
         <option value="$PROJECT_DIR$/src/sdkd/com/ec/model/EbNews.java" />
         <option value="$PROJECT_DIR$/web/product-view.html" />
-        <option value="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbNewsDao.java" />
         <option value="$PROJECT_DIR$/src/sdkd/com/ec/model/EbNotice.java" />
         <option value="$PROJECT_DIR$/src/sdkd/com/ec/controller/Servlet.java" />
-        <option value="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbNoticeDao.java" />
-        <option value="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbNewsController.java" />
         <option value="$PROJECT_DIR$/src/sdkd/com/ec/model/EbPCategory.java" />
         <option value="$PROJECT_DIR$/src/sdkd/com/ec/test/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbPCategoryDao.java" />
-        <option value="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbPCategoryController.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbNoticeController.java" />
-        <option value="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbUserReController.java" />
-        <option value="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbUserDao.java" />
         <option value="$PROJECT_DIR$/web/register.jsp" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
-        <option value="$PROJECT_DIR$/src/sdkd/com/ec/dao/BaseDao.java" />
-        <option value="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbUserController.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/sdkd/com/ec/model/ShoppingItem.java" />
-        <option value="$PROJECT_DIR$/src/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/sdkd/com/ec/test/PropertiesTest.java" />
+        <option value="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbNewsDao.java" />
+        <option value="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbNoticeDao.java" />
         <option value="$PROJECT_DIR$/web/news-view.jsp" />
-        <option value="$PROJECT_DIR$/src/sdkd/com/ec/model/EbProduct.java" />
-        <option value="$PROJECT_DIR$/src/sdkd/com/ec/controller/ShoppingiItemController.java" />
-        <option value="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbProductController.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbNewsController.java" />
         <option value="$PROJECT_DIR$/web/product-view.jsp" />
+        <option value="$PROJECT_DIR$/src/sdkd/com/ec/model/EbOrderDetail.java" />
+        <option value="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbOrderDao.java" />
+        <option value="$PROJECT_DIR$/src/sdkd/com/ec/model/ShoppingCartItem.java" />
+        <option value="$PROJECT_DIR$/src/sdkd/com/ec/model/EbUser.java" />
+        <option value="$PROJECT_DIR$/src/sdkd/com/ec/model/EbOrder.java" />
+        <option value="$PROJECT_DIR$/src/sdkd/com/ec/dao/BaseDao.java" />
+        <option value="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbShoppingResultControl.java" />
+        <option value="$PROJECT_DIR$/src/sdkd/com/ec/service/EbOrderService.java" />
+        <option value="$PROJECT_DIR$/web/shopping.jsp" />
+        <option value="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbOrderDetailDao.java" />
+        <option value="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbShoppingController.java" />
+        <option value="$PROJECT_DIR$/web/shopping-result.jsp" />
+        <option value="$PROJECT_DIR$/src/sdkd/com/ec/model/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/web/scripts/function.js" />
+        <option value="$PROJECT_DIR$/web/include/top.jsp" />
+        <option value="$PROJECT_DIR$/web/include/left.jsp" />
+        <option value="$PROJECT_DIR$/src/sdkd/com/ec/model/EbProduct.java" />
+        <option value="$PROJECT_DIR$/src/sdkd/com/ec/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbPCategoryController.java" />
+        <option value="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbNoticeController.java" />
+        <option value="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbProductController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/welcome.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/aa.jsp" />
+        <option value="$PROJECT_DIR$/web/ss.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbProductDao.java" />
+        <option value="$PROJECT_DIR$/web/product-list.jsp" />
+        <option value="$PROJECT_DIR$/web/reg-result.jsp" />
+        <option value="$PROJECT_DIR$/web/welcome.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/manage/index.jsp" />
+        <option value="$PROJECT_DIR$/src/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbUserReController.java" />
+        <option value="$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbUserDao.java" />
+        <option value="$PROJECT_DIR$/src/sdkd/com/ec/controller/EbUserController.java" />
       </list>
     </option>
   </component>
@@ -305,7 +299,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -376,7 +370,145 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easyBuy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easyBuy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easyBuy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easyBuy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdkd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easyBuy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easyBuy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdkd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easyBuy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easyBuy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdkd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easyBuy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="easyBuy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sdkd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -388,12 +520,12 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="Push.Settings">
     <excluded-roots>
@@ -401,13 +533,20 @@
     </excluded-roots>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\easypay\easyBuy\web" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="sdkd.com.ec.controller" />
+      <recent name="sdkd.com.ec.model" />
+      <recent name="sdkd.com.ec.dao.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\cpy\easybuy" />
-      <recent name="E:\project\easybuy\lib" />
-      <recent name="E:\project\easybuy\web" />
+      <recent name="C:\Users\Administrator\Desktop\easypay\easyBuy\web\WEB-INF" />
+      <recent name="C:\Users\Administrator\Desktop\easypay\easyBuy\src\sdkd\com\ec\util" />
+      <recent name="C:\Users\Administrator\Desktop\easybuy\easyBuy\web" />
+      <recent name="C:\Users\Administrator\Desktop\easybuy\easyBuy\web\WEB-INF" />
+      <recent name="C:\Users\Administrator\Desktop\easybuy\easyBuy\src\sdkd\com\ec\dao\impl" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.easybuy">
@@ -430,78 +569,6 @@
       <module name="easybuy" />
       <envs />
       <method />
-    </configuration>
-    <configuration default="false" name="index.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.68" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
-      <deployment>
-        <artifact name="easybuy:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="index_jsp_(1)_easybuy" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="2306" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="easybuy:war exploded" />
-        </option>
-      </method>
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
@@ -935,80 +1002,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.68" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
-      <deployment>
-        <artifact name="easybuy:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="index_jsp_easybuy" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="2031" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="easybuy:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration default="false" name="easybuy" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.68" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
+    <configuration default="false" name="easybuy" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.70" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="easybuy:war exploded">
           <settings>
@@ -1079,17 +1073,14 @@
         </option>
       </method>
     </configuration>
-    <list size="5">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.EbUserDao" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
-      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.easybuy" />
-      <item index="3" class="java.lang.String" itemvalue="Application.BaseTest" />
-      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.easybuy" />
+      <item index="2" class="java.lang.String" itemvalue="Application.BaseTest" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="1">
         <item index="0" class="java.lang.String" itemvalue="Application.BaseTest" />
-        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -1121,9 +1112,20 @@
       <workItem from="1467946487144" duration="5167000" />
       <workItem from="1467978065104" duration="4900000" />
       <workItem from="1467983402335" duration="1974000" />
-      <workItem from="1467985769872" duration="645000" />
-      <workItem from="1468023969639" duration="9509000" />
-      <workItem from="1468118496598" duration="10447000" />
+      <workItem from="1468027462382" duration="25523000" />
+      <workItem from="1468119333907" duration="7070000" />
+      <workItem from="1468127968762" duration="24000" />
+      <workItem from="1468128126342" duration="756000" />
+      <workItem from="1468129818916" duration="1300000" />
+      <workItem from="1468131284988" duration="24846000" />
+      <workItem from="1468195288011" duration="128000" />
+      <workItem from="1468198016923" duration="1877000" />
+      <workItem from="1468201871098" duration="33843000" />
+      <workItem from="1468282031312" duration="9086000" />
+      <workItem from="1468292173294" duration="330000" />
+      <workItem from="1468294004417" duration="2636000" />
+      <workItem from="1468316745629" duration="2490000" />
+      <workItem from="1468367946228" duration="2403000" />
     </task>
     <task id="LOCAL-00001" summary="first 唐晓鹏">
       <created>1467945333593</created>
@@ -1146,52 +1148,86 @@
       <option name="project" value="LOCAL" />
       <updated>1467947211702</updated>
     </task>
-    <task id="LOCAL-00004" summary="first 唐晓鹏">
-      <created>1468130009569</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1468130009569</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83104000" />
+    <option name="totallyTimeSpent" value="174815000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45994064" sideWeight="0.36163983" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37240356" sideWeight="0.522694" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.001610306" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37091988" sideWeight="0.47437775" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6167472" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2657005" sideWeight="0.477306" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24377745" sideWeight="0.4657258" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30625" sideWeight="0.5342742" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2942899" sideWeight="0.47409326" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2920937" sideWeight="0.52590674" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24936387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2833828" sideWeight="0.6383602" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17341977" sideWeight="0.64568084" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37240356" sideWeight="0.522694" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49919486" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22222222" sideWeight="0.64568084" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45571658" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6167472" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5652174" sideWeight="0.477306" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2677761" sideWeight="0.47409326" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2920937" sideWeight="0.52590674" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1206,12 +1242,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first 唐晓鹏" />
-    <MESSAGE value="热卖，特价修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="热卖，特价修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="first 唐晓鹏" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="41" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sdkd/com/ec/controller/EbProductController.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="82" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1220,339 +1263,368 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/index.html" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/web/shopping.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="257">
+          <caret line="58" column="37" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+    <entry file="file://$PROJECT_DIR$/web/shopping-result.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/test.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/guestbook.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/dao/ProductDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/ProductDaoImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/controller/Servlet01.java" />
-    <entry file="jar://C:/Program Files/java/jdk1.7.0_79/src.zip!/java/sql/DriverManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/dao/ReflectBaseDao.java" />
-    <entry file="file://$PROJECT_DIR$/web/index.html" />
-    <entry file="jar://$PROJECT_DIR$/lib/jstl-1.2.jar!/javax/servlet/jsp/jstl/core/LoopTag.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/jstl-1.2.jar!/javax/servlet/jsp/jstl/core/IteratedExpression.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/product-view.html" />
-    <entry file="file://$PROJECT_DIR$/web/manage/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/service/impl/EbUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/test/PropertiesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="36" selection-start-line="9" selection-start-column="8" selection-end-line="13" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_17/src.zip!/java/sql/PreparedStatement.java" />
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/controller/Servlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/test/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/model/EbComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/model/EbNotice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="9" column="85" selection-start-line="9" selection-start-column="85" selection-end-line="9" selection-end-column="85" />
+        <state relative-caret-position="149">
+          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/model/EbNews.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="54" column="64" selection-start-line="54" selection-start-column="64" selection-end-line="54" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbNoticeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="30" column="5" selection-start-line="14" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/model/EbUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easybuy.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/controller/EbUserReController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/controller/EbUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/model/ShoppingItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
-          <folding>
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbNewsDao.java">
+    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/model/EbOrderDetail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding />
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/controller/EbNoticeController.java">
+    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/model/ShoppingCartItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="-120">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/controller/EbNewsController.java">
+    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/model/EbOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="390">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/easybuy_war_exploded.xml">
+    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/model/ShoppingCart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="110">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/controller/ShoppingiItemController.java">
+    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbOrderDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="310">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/controller/EbProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="40" column="64" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="131" column="28" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/news-view.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="64" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_75/src.zip!/java/sql/PreparedStatement.java" />
     <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/model/EbProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/product-view.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="86" column="91" selection-start-line="86" selection-start-column="91" selection-end-line="86" selection-end-column="91" />
-          <folding />
+        <state relative-caret-position="110">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/scripts/function.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="130" column="9" selection-start-line="130" selection-start-column="9" selection-end-line="130" selection-end-column="9" />
+        <state relative-caret-position="375">
+          <caret line="191" column="47" selection-start-line="191" selection-start-column="47" selection-end-line="191" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/include/left.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/controller/EbPCategoryController.java">
+    <entry file="file://$PROJECT_DIR$/web/include/top.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="220">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbUserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/controller/ShoppingiItemController.java" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/aa.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/ss.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/news-view.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-          <folding>
-            <element signature="e#1447#1455#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/model/EbPCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="e#1121#1132#0" expanded="true" />
-            <element signature="e#2199#2210#0" expanded="true" />
-            <element signature="e#3380#3388#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbPCategoryDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        <state relative-caret-position="22">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/dao/BaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="60" column="32" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
+        <state relative-caret-position="-154">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="197" column="4" selection-start-line="197" selection-start-column="4" selection-end-line="197" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/product-view.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="66" column="21" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/product-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1925">
+          <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/service/EbOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/service/impl/EbUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/util/ConstantUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/reg-result.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1450">
+          <caret line="58" column="58" selection-start-line="58" selection-start-column="55" selection-end-line="58" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/util/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/controller/EbNoticeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/controller/EbNewsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1375">
+          <caret line="65" column="42" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/manage/news-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/manage/product-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/manage/order.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/manage/news.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/manage/manage-result.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/manage/guestbook-modify.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/manage/guestbook.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/manage/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/manage/user-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/controller/EbProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2300">
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/controller/EbShoppingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3075">
+          <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/controller/EbUserReController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/controller/EbPCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="25" column="58" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="830">
+          <caret line="50" column="60" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/dao/impl/EbOrderDetailDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sdkd/com/ec/controller/EbUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/manage/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1616,6 +1688,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
