@@ -21,6 +21,9 @@ public class EbProductController extends HttpServlet {
 
 
     EbProductDao productDao = new EbProductDao();
+    EbPCategoryDao categoryDao=new EbPCategoryDao();
+
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doGet(request,response);
     }
@@ -45,6 +48,54 @@ public class EbProductController extends HttpServlet {
         request.setAttribute("saleOfGoodsList",saleOfGoodsList);
         //跳转页面
         request.getRequestDispatcher("/notice.do").forward(request, response);
+       */
+
+        //获取商品分类
+        List<EbPCategory> categoriesList = categoryDao.getCategory();
+        request.setAttribute("categoryList",categoriesList);
+
+
+        String pageIndexParam = request.getParameter("pageIndex");
+            String pageSizeParam = request.getParameter("pageSize");
+
+            int pageIndex  = 1;
+            int pageSize = 4;
+
+            if(pageIndexParam!=null && !"".equals(pageIndexParam)){
+                pageIndex = Integer.parseInt(pageIndexParam);
+
+            }
+
+            if(pageSizeParam!=null && !"".equals(pageSizeParam)){
+                pageSize = Integer.valueOf(pageSizeParam);
+            }
+
+            List<EbProduct> productList = productDao.getProductPager(pageIndex,pageSize);
+
+            int count = productDao.getProductCount();//商品总数量；
+
+           //获取商品页数
+            int test=count%pageSize;
+            if(test==0){
+              int totalPage=count/pageSize;
+                request.setAttribute("totalPage",totalPage);
+           }else{
+                int totalPage=count/pageSize+1;
+                request.setAttribute("totalPage",totalPage);
+            }
+
+            request.setAttribute("productList",productList);
+            request.setAttribute("pageIndex",pageIndex);
+/*
+            List<Integer> countList = new ArrayList<Integer>();
+            for(int i = 0;i<count;i++) {
+                countList.add(count);
+            }
+            request.setAttribute("countList",countList);*/
+
+            //跳转页面
+            request.getRequestDispatcher("/product-list.jsp").forward(request,response);
+
 */
 
             String pageIndexParam = request.getParameter("pageIndex");
