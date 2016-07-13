@@ -164,6 +164,4 @@ public class EbProductController extends HttpServlet {
         request.getSession().setAttribute("recentList", list);
 
     }
-
-
 }
