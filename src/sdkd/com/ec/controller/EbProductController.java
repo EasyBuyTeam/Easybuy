@@ -86,49 +86,11 @@ public class EbProductController extends HttpServlet {
 
             request.setAttribute("productList",productList);
             request.setAttribute("pageIndex",pageIndex);
-/*
-            List<Integer> countList = new ArrayList<Integer>();
-            for(int i = 0;i<count;i++) {
-                countList.add(count);
-            }
-            request.setAttribute("countList",countList);*/
 
             //跳转页面
             request.getRequestDispatcher("/product-list.jsp").forward(request,response);
-
-*/
-
-            String pageIndexParam = request.getParameter("pageIndex");
-            String pageSizeParam = request.getParameter("pageSize");
-            int pageIndex  = 1;
-            int pageSize = 4;
-            if(pageIndexParam!=null && !"".equals(pageIndexParam)){
-                pageIndex = Integer.parseInt(pageIndexParam);
-
-            }
-
-            if(pageSizeParam!=null && !"".equals(pageSizeParam)){
-                pageSize = Integer.valueOf(pageSizeParam);
-            }
-            List<EbProduct> productList = productDao.getProductPager(pageIndex,pageSize);
-            int count = productDao.getProductCount();
-
-            request.setAttribute("productList",productList);
-            request.setAttribute("count",count);  //总页数
-            request.setAttribute("pageIndex",pageIndex);
-
-            List<Integer> countList = new ArrayList<Integer>();
-            for(int i = 0;i<count;i++) {
-                countList.add(count);
-            }
-            request.setAttribute("countList",countList);
-
-            //跳转页面
-            request.getRequestDispatcher("/product-list.jsp").forward(request,response);
-
 
     }
-
 
     public void  detail (HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
