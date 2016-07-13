@@ -142,7 +142,7 @@ function goBuy(id, price)
 		newCookie = id;
 	}
 	setCookie("product", newCookie);
-	location.href = "../shopping.jsp";
+	location.href = "shopping.do?action=getcart&id="+id;
 }
 
 function delShopping(id)
@@ -164,8 +164,8 @@ function delShopping(id)
 
 function reloadPrice(id, status)
 {
-	var price = document.getElementById("price_id_" + id).getElementsByTagName("input")[0].value;
-	var priceBox = document.getElementById("price_id_" + id).getElementsByTagName("span")[0];
+	var price = document.getElementById("price_id_" + id).getElementsByTagName("input")[id].value;
+	var priceBox = document.getElementById("price_id_" + id).getElementsByTagName("span")[id];
 	var number = document.getElementById("number_id_" + id);
 	if(status) {
 		number.value++;
@@ -177,4 +177,18 @@ function reloadPrice(id, status)
 		}
 	}
 	priceBox.innerHTML = "￥" + price * number.value;
+}
+function modifyQuantity(id,index){
+	var number = document.getElementById("number_id_" + id);
+	location.href = "shopping.do?action=mod&id="+id+"&quantity="+number.value+"&index="+index;
+}
+
+function removeShopping(id,index) {
+	
+	location.href = "shopping.do?action=remove&id="+id+"&index="+index;
+}
+
+function goPage() {
+  var toPage=document.getElementById("toPage");
+	location.href = "/product.do?action=list&pageIndex="+toPage.value;
 }

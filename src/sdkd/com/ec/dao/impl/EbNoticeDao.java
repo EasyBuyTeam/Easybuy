@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * Created by Night Watch on 2016/7/7.
  */
-public class EbNoticeDao extends BaseDao{
+public class EbNoticeDao extends BaseDao {
     public List<EbNotice> getNotice(){
         List<EbNotice> noticeList = new ArrayList<EbNotice>();
         String sql = "select * from easybuy_notice order by ent_time desc limit 0,7";
@@ -28,5 +28,25 @@ public class EbNoticeDao extends BaseDao{
             e.printStackTrace();
         }
         return noticeList;
+    }
+
+    public EbNotice getNoticeById(int id){
+
+        EbNotice  notice = new EbNotice();
+        String sql = "select * from easybuy_notice where ent_id=?";
+        try {
+            List<String> params= new ArrayList<String>();
+            params.add(id+"");
+            ResultSet rs = this.executeSearch(sql,params);
+            while (rs.next()){
+                notice.setEntId(rs.getInt("ent_id"));
+                notice.setEntContent(rs.getString("ent_content"));
+                notice.setEntInfo(rs.getString("ent_info"));
+
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return notice;
     }
 }
