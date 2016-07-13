@@ -72,11 +72,12 @@ public class EbUserDao extends BaseDao {
                 EbUser user = new EbUser();
                 user.setEuName(rs.getString("eu_user_name"));
                 user.setEuPassword(rs.getString("eu_password"));
-                user.setEuStatue(rs.getString("eu_status"));
-
+                //news.setEnId(rs.getInt("en_id"));
+                //news.setEnTitle(rs.getString("en_title"));
                 //添加到集合中
                 usersList.add(user);
-
+                //System.out.println();
+                // usersList.get(1).
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -90,7 +91,6 @@ public class EbUserDao extends BaseDao {
         list.add(useId+"");
         list.add(useName);
         list.add(passWord);
-
         this.exeucteModify(sql, list);
     }
 

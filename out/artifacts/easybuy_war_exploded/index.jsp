@@ -12,16 +12,12 @@
 	<div id="logo"><img src="images/logo.gif" /></div>
 	<div class="help">
 		<a href="#" class="shopping">购物车</a>
-
-
-
 		<c:if test="${user==null}">
 			<a href="login.jsp">登录</a>
 			<a href="register.jsp">注册</a>
 		</c:if>
+
 		<c:if test="${user!=null}">
-			<a>欢迎${user}</a>
-			<a href="guestbook.jsp">留言</a>
 			<a href="guestbook.do">留言</a>
 		</c:if>
 	</div>
