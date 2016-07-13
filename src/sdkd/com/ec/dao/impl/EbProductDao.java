@@ -3,8 +3,6 @@ package sdkd.com.ec.dao.impl;
 import sdkd.com.ec.dao.BaseDao;
 import sdkd.com.ec.model.EbProduct;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
