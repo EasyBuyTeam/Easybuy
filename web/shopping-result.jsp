@@ -58,7 +58,7 @@
 					</p>
 
 					<script type="text/javascript">
-						setTimeout("location.href='/welcom.jsp'", 3000);
+						setTimeout("location.href='/welcome.jsp'", 3000);
 					</script>
 				</div>
 			</div>
