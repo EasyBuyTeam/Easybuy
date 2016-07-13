@@ -1,8 +1,6 @@
 package sdkd.com.ec.controller;
 
-import sdkd.com.ec.dao.impl.EbNewsDao;
 import sdkd.com.ec.dao.impl.EbPCategoryDao;
-import sdkd.com.ec.model.EbNews;
 import sdkd.com.ec.model.EbPCategory;
 
 import javax.servlet.ServletException;
@@ -28,6 +26,6 @@ public class EbPCategoryController extends HttpServlet {
         request.setAttribute("categoryList",categorieslist);
 
         //跳转
-        request.getRequestDispatcher("/product.do").forward(request,response);
+        request.getRequestDispatcher("/index.jsp").forward(request,response);
     }
 }

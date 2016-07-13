@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -50,24 +51,16 @@
 		<div class="box">
 			<h2>商品分类</h2>
 			<dl>
-				<dt>图书音像</dt>
-				<dd><a href="product-list.jsp">图书</a></dd>
-				<dd><a href="product-list.jsp">音乐</a></dd>
-				<dt>百货</dt>
-				<dd><a href="product-list.jsp">运动健康</a></dd>
-				<dd><a href="product-list.jsp">服装</a></dd>
-				<dd><a href="product-list.jsp">家居</a></dd>
-				<dd><a href="product-list.jsp">美妆</a></dd>
-				<dd><a href="product-list.jsp">母婴</a></dd>
-				<dd><a href="product-list.jsp">食品</a></dd>
-				<dd><a href="product-list.jsp">手机数码</a></dd>
-				<dd><a href="product-list.jsp">家具首饰</a></dd>
-				<dd><a href="product-list.jsp">手表饰品</a></dd>
-				<dd><a href="product-list.jsp">鞋包</a></dd>
-				<dd><a href="product-list.jsp">家电</a></dd>
-				<dd><a href="product-list.jsp">电脑办公</a></dd>
-				<dd><a href="product-list.jsp">玩具文具</a></dd>
-				<dd><a href="product-list.jsp">汽车用品</a></dd>
+				<c:forEach var="category" items="${categotyList}">
+					<c:if test="${category.epcparentId  == 0}">
+						<dt>${category.epcName}</dt>
+					</c:if>
+					<c:forEach var = "childcategory" items="${categoryList}">
+						<c:if test="${childcategory.epcparentId == category.epcId}">
+							<dd><a href="product.do?action=list">${childcategory.epcName}</a></dd>
+						</c:if>
+					</c:forEach>
+				</c:forEach>
 			</dl>
 		</div>
 	</div>
@@ -75,27 +68,15 @@
 		<div class="guestbook">
 			<h2>全部留言</h2>
 			<ul>
-				<li>
-					<dl>
-						<dt>那个什么衣服贵吗</dt>
-						<dd class="author">网友：张三丰 <span class="timer">2010:10:10 20:00:01</span></dd>
-						<dd>不贵</dd>
-					</dl>
-				</li>
-				<li>
-					<dl>
-						<dt>那个什么衣服贵吗</dt>
-						<dd class="author">网友：张三丰 <span class="timer">2010:10:10 20:00:01</span></dd>
-						<dd>不贵</dd>
-					</dl>
-				</li>
-				<li>
-					<dl>
-						<dt>那个什么衣服贵吗</dt>
-						<dd class="author">网友：张三丰 <span class="timer">2010:10:10 20:00:01</span></dd>
-						<dd>不贵</dd>
-					</dl>
-				</li>
+				<c:forEach var="comment" items="${commentList}">
+					<li>
+						<dl>
+							<dt>${comment.ecContent}</dt>
+							<dd class="author">网友：${comment.ecnickName} <span class="timer">${comment.eccreateTime}</span></dd>
+							<dd>${comment.ecReply}</dd>
+						</dl>
+					</li>
+				</c:forEach>
 			</ul>
 			<div class="clear"></div>
 			<div class="pager">

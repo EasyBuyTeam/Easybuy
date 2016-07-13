@@ -29,4 +29,24 @@ public class EbNewsDao extends BaseDao {
         }
         return newsList;
     }
+    public EbNews getNewsById(int id){
+
+        EbNews news = new EbNews();
+        String sql = "select * from easybuy_news where en_id=?";
+        try {
+            List<String> params= new ArrayList<String>();
+            params.add(id+"");
+            ResultSet rs = this.executeSearch(sql,params);
+            while (rs.next()){
+              news.setEnId(rs.getInt("en_id"));
+                news.setEnContent(rs.getString("en_content"));
+                news.setEnTitle(rs.getString("en_title"));
+
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return news;
+    }
+
 }

@@ -2,10 +2,10 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>易买网 - 首页</title>
-<link type="text/css" rel="stylesheet" href="css/style.css" />
-<script type="text/javascript" src="scripts/function.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>易买网 - 首页</title>
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<script type="text/javascript" src="scripts/function.js"></script>
 </head>
 <body>
 <div id="header" class="wrap">
@@ -18,7 +18,7 @@
 		</c:if>
 
 		<c:if test="${user!=null}">
-			<a href="guestbook.jsp">留言</a>
+			<a href="guestbook.do">留言</a>
 		</c:if>
 	</div>
 	<div class="navbar">
@@ -58,17 +58,15 @@
 		<div class="box">
 			<h2>商品分类</h2>
 			<dl>
-
-
 				<c:forEach var="category" items="${categoryList}">
 					<c:if test="${category.epcparentId  == 0}">
 						<dt>${category.epcName}</dt>
 					</c:if>
-						<c:forEach var = "childcategory" items="${categoryList}">
-							<c:if test="${childcategory.epcparentId == category.epcId}">
-								<dd><a href="product-list.jsp">${childcategory.epcName}</a></dd>
-							</c:if>
-						</c:forEach>
+					<c:forEach var = "childcategory" items="${categoryList}">
+						<c:if test="${childcategory.epcparentId == category.epcId}">
+							<dd><a href="product.do?action=list">${childcategory.epcName}</a></dd>
+						</c:if>
+					</c:forEach>
 				</c:forEach>
 			</dl>
 		</div>
@@ -76,10 +74,10 @@
 		<div class="last-view">
 			<h2>最近浏览</h2>
 			<dl class="clearfix">
-				<dt><img src="images/product/0_tiny.gif" /></dt>
-				<dd><a href="product-view.jsp">法国德菲丝松露精品巧克力500g/盒</a></dd>
-				<dt><img src="images/product/0_tiny.gif" /></dt>
-				<dd><a href="product-view.jsp">法国德菲丝松露精品巧克力500g/盒</a></dd>
+				<c:forEach var="recent" items="${recentList}">
+					<dt><img src="${recent.epPicture2}"></dt>
+					<dd><a href="product.do?id=${recent.epId}&action=detail" target="_blank">${recent.epName}</a></dd>
+				</c:forEach>
 			</dl>
 		</div>
 	</div>
@@ -88,13 +86,13 @@
 			<h2>今日特价</h2>
 			<ul class="product clearfix">
 				<c:forEach var="products" items="${saleOfGoodsList}">
-				<li>
-					<dl>
-						<%--><dt><a href="product-view.jsp" target="_blank"><img src="images/product/1.jpg" /></a></dt><--%>
-						<dd class="title"><a href="product-view.jsp?id=${products.epId}" target="_blank">${products.epName}</a></dd>
-						<dd class="price">${products.epPrice}</dd>
-					</dl>
-				</li>
+					<li>
+						<dl>
+							<dt><a href="product.do?id=${products.epId}&action=detail" target="_blank"><img src="${products.epPicture}" /></a></dt>
+							<dd class="title"><a href="product.do?id=${products.epId}&action=detail" target="_blank">${products.epName}</a></dd>
+							<dd class="price">${products.epPrice}</dd>
+						</dl>
+					</li>
 				</c:forEach>
 			</ul>
 		</div>
@@ -103,7 +101,7 @@
 				<h4>最新公告</h4>
 				<ul>
 					<c:forEach var="notice" items="${noticeList}">
-						<li><a href="news-view.jsp?id=${notice.entId}" target="_blank">${notice.entContent}</a></li>
+						<li><a href="notice.do?id=${notice.entId}&action=detail" target="_blank">${notice.entContent}</a></li>
 					</c:forEach>
 				</ul>
 			</div>
@@ -112,7 +110,7 @@
 				<h4>新闻动态</h4>
 				<ul>
 					<c:forEach var="news" items="${newList}">
-						<li><a href="news-view.jsp?id=${news.enId}" target="_blank">${news.enTitle}</a></li>
+						<li><a href="news.do?id=${news.enId}&action=detail" target="_blank">${news.enTitle}</a></li>
 					</c:forEach>
 				</ul>
 			</div>
@@ -122,13 +120,13 @@
 			<h2>热卖推荐</h2>
 			<ul class="product clearfix">
 				<c:forEach var="products" items="${hotProductList}">
-				<li>
-					<dl>
-						<%--><dt><a href="product-view.jsp" target="_blank"><img src="images/product/1.jpg" /></a></dt><--%>
-						<dd class="title"><a href="product-view.jsp?id=${products.epId}" target="_blank">${products.epName}</a></dd>
-						<dd class="price">${products.epPrice}</dd>
-					</dl>
-				</li>
+					<li>
+						<dl>
+							<dt><a href="product.do?id=${products.epId}&action=detail" target="_blank"><img src="${products.epPicture}" /></a></dt>
+							<dd class="title"><a href="product.do?id=${products.epId}&action=detail" target="_blank">${products.epName}</a></dd>
+							<dd class="price">${products.epPrice}</dd>
+						</dl>
+					</li>
 				</c:forEach>
 			</ul>
 		</div>
